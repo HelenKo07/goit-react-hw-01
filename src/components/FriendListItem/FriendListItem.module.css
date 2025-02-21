@@ -1,0 +1,20 @@
+.friendListItem {
+  min-width: 110px;
+  height: auto;
+  padding: 10px;
+  border: 1px solid #0b0000;
+  border-radius: 15px;
+  background-color: rgb(245, 243, 241);
+  box-shadow: -10px -10px 20px rgba(236, 225, 225, 0.1);
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+p:first-of-type {
+  font-size: 20px;
+  font-weight: 300;
+  color: #0b0000;
+}

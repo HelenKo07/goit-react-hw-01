@@ -1,0 +1,66 @@
+.profile {
+    width: 100%;
+    border: 2px solid #0a0000;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    box-shadow: -10px -10px 20px rgba(236, 225, 225, 0.1);
+    overflow: hidden;
+    margin-bottom: 36px;
+}
+
+.profile div {
+    padding: 20px;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #373434;
+    border: none;
+}
+
+.profile p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: gray;
+}
+
+.profile p:first-of-type {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.profile ul {
+    display: flex;
+    background-color: #e5e5e5;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.profile ul li {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #f1eded;
+}
+
+.profile ul li:last-child {
+    border-right: none;
+}
+
+.profile ul li span:first-child {
+    display: block;
+    font-size: 14px;
+    color: rgb(7, 0, 0);
+}
+
+.profile ul li span:last-child {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0a0000;
+}
